@@ -1,0 +1,11 @@
+server {
+    listen 443 ssl http2;
+    listen [::]:443 ssl http2;
+    server_name brandon.doster.cc;
+
+    root        /config/sites/brandon-jekyll;
+    index index.html;
+
+    location / {
+    }
+}
